@@ -1,12 +1,12 @@
 const { SlashCommandBuilder, EmbedBuilder } = require("discord.js")
 
 const exampleEmbed = new EmbedBuilder()
-	.setColor(0x0099FF)
-	.setTitle('Some title')
-	.setURL('https://discord.js.org/')
-	.setAuthor({ name: 'Some name', iconURL: 'https://i.imgur.com/AfFp7pu.png', url: 'https://discord.js.org' })
-	.setDescription('Some description here')
-	.setThumbnail('https://i.imgur.com/AfFp7pu.png')
+	.setColor(0xff9ee2)
+	.setTitle('Lista de Animações')
+	.setURL('https://docs.google.com/document/d/1RbdU3Fvj_5TefagfvFTjy2cwEZ1gkXRVVbE5YjiRFdQ/edit?usp=sharing')
+	.setAuthor({ name: 'Animações', iconURL: 'https://imgur.com/U4pDiNj', url: 'https://docs.google.com/document/d/1RbdU3Fvj_5TefagfvFTjy2cwEZ1gkXRVVbE5YjiRFdQ/edit?usp=sharing' })
+	.setDescription('Uma lista com as animações que vamos assistir.')
+	.setThumbnail('https://imgur.com/U4pDiNj')
 	.addFields(
 		{ name: 'Regular field title', value: 'Some value here' },
 		{ name: '\u200B', value: '\u200B' },
